@@ -6,11 +6,11 @@ body{
 }
 div#iphone{
     text-align: center;
-    margin-top: 25vh;
+    
 }
 div#botoes{
     text-align: right;
 }
 div#botoes > img{
-    width: 10px;
+    width: 50px;
 }
