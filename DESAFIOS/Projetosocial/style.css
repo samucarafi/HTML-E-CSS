@@ -4,7 +4,10 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-div{
+div#iphone{
     text-align: center;
     margin-top: 25vh;
+}
+div#botoes{
+    text-align: right;
 }
