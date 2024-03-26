@@ -5,12 +5,22 @@ body{
     background-attachment: fixed;
 }
 div#iphone{
-    text-align: center;
-    
+    position:absolute;
+    top: 50vh;
+    left: 40vw;
 }
 div#botoes{
-    text-align: right;
+    
 }
 div#botoes > img{
     width: 50px;
+}
+div#tela{
+position: relative;
+top: 40vh;
+left: 43vw;
+}
+div#tela > img{
+    width: 270px;
+    
 }
