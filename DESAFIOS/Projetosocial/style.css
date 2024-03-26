@@ -3,22 +3,23 @@ body{
     background-image: url(imagens/fundo-madeira.jpg);
     background-size: cover;
     background-attachment: fixed;
+    height: 100vh;
 }
 div#iphone{
     position:absolute;
-    top: 50vh;
-    left: 40vw;
+    top: 25%;
+    left: 25%;
 }
 div#botoes{
-    
+    text-align: right;
 }
 div#botoes > img{
     width: 50px;
 }
 div#tela{
 position: relative;
-top: 40vh;
-left: 43vw;
+left: 29%;
+top:13vh;
 }
 div#tela > img{
     width: 270px;
