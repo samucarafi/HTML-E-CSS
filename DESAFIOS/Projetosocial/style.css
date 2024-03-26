@@ -11,3 +11,6 @@ div#iphone{
 div#botoes{
     text-align: right;
 }
+div#botoes > img{
+    width: 10px;
+}
