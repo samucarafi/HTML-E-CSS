@@ -1,5 +1,5 @@
 @charset "UTF-08";
-@media screen and (min-width:768px) and (max-width:992px){
+@media screen and (min-width:768px) and (min-height:350px) and (max-width:992px){
     body{
         background-image: linear-gradient(to top, lightgoldenrodyellow,orange);
     }
@@ -18,7 +18,7 @@
         width: 55%;
     }
 }
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
     body{
         background-image: linear-gradient(to top, lightgoldenrodyellow,orange);
     }
