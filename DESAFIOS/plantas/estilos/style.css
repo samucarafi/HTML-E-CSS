@@ -43,9 +43,9 @@ div{
     height: 100%;
 }
 div#folhagem{
-    background-image: url(../imagens/21253507_2107.q703.012.S.m004.c10.house\ plants\ realistic.jpg);
+    background-image: url(../imagens/—Pngtree—small\ clear\ hand\ drawn\ minimalist_948703.jpg);
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:100% 100%;
     background-position: top center;
     height: 100%;
     background-attachment: fixed;
@@ -65,4 +65,5 @@ div#flores{
     background-size:100% 100%;
     background-position: top center;
     height: 100%;
+    background-attachment: fixed;
 }
