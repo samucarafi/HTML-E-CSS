@@ -6,14 +6,17 @@
 body, html{
     width: 100vw;
     height: 100vh;
+    background-color: lightgreen;
 }
 header{
-    height: 30vh;
+    height: 200px;
     text-align: center;
+    font-family: cursive;
+    font-size: 4.0em;
     color: green;
 }
 h1{
-    padding-top: 120px;
+    padding-top: 20px;
 }
 h2{
     text-align: center;
@@ -24,7 +27,28 @@ main{
 div{
     width: 70vw;
     margin: auto;
-}
-div#folhagem{:
+    background-color: white;
     height: 100%;
+}
+div#folhagem{
+    background-image: url(../imagens/21253507_2107.q703.012.S.m004.c10.house\ plants\ realistic.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top center;
+    
+}
+h2{
+    padding-top:190px;
+    font-family: cursive;
+    color: black;
+    font-size: 4.0em;
+}
+div#folhagem p{
+    
+}
+div#flores{
+    background-image: url(../imagens/21253507_2107.q703.012.S.m004.c10.house\ plants\ realistic.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top center;
 }
