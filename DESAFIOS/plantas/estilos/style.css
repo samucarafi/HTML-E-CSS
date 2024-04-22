@@ -37,7 +37,7 @@ main{
     
 }
 div{
-    width: 70vw;
+    width: 100vw;
     margin: auto;
     background-color: white;
     height: 100%;
@@ -47,7 +47,8 @@ div#folhagem{
     background-repeat: no-repeat;
     background-size:100%;
     background-position: top center;
-    
+    height: 100%;
+    background-attachment: fixed;
 }
 h2{
     padding-top:50px;
@@ -55,12 +56,13 @@ h2{
     color: black;
     font-size: 3.0em;
 }
-div#folhagem p{
+ p{
     padding: 30px;
 }
 div#flores{
     background-image: url(../imagens/fundo-floral-com-lindas-flores-cor-de-rosa-e-linha-abstrata_24100-976.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:100% 100%;
     background-position: top center;
+    height: 100%;
 }
