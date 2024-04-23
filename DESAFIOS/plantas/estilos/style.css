@@ -4,24 +4,27 @@
     margin: 0px;
 }
 body, html{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: lightgreen;
 }
 header{
-    height: 100px;
+    height: 150px;
     text-align: center;
     font-family: cursive;
     font-size: 2.0em;
     color: green;
+    width: 100%;
 }
 menu{
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: green;
+    width: 100%;
 }
 menu a{
     color: white;
-    padding: 10px;
+    padding: 10px; ;
 }
 menu a:hover{
 background-color: darkgreen;
@@ -34,22 +37,23 @@ h2{
     text-align: center;
 }
 main{
-    
+    width: 100%;
 }
 div{
-    width: 100vw;
+    width: 100%;
     margin: auto;
     background-color: white;
     height: 100%;
     text-align: center;
-}
-div#folhagem{
-    background-image: url(../imagens/—Pngtree—small\ clear\ hand\ drawn\ minimalist_948703.jpg);
     background-repeat: no-repeat;
     background-size:100% 100%;
     background-position: top center;
     height: 100%;
     background-attachment: fixed;
+}
+div#folhagem{
+    background-image: url(../imagens/fundo-folhagem.jpg);
+    
 }
 h2{
     padding-top:50px;
@@ -58,18 +62,22 @@ h2{
     font-size: 3.0em;
 }
  p{
-    padding: 30px;
+    
 }
 div#flores{
-    background-image: url(../imagens/floral-frame-of-watercolor-pink-flowers-page-border-background-word-template_8d7eb6d6af__1131_1600.jpg);
-    background-repeat: no-repeat;
-    background-size:100% 100%;
-    background-position: top center;
-    height: 100%;
-    background-attachment: fixed;
+    background-image: url(../imagens/fundo-flores.jpg);
 }
 img.imagem{
+    margin: auto;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
+    display: block;
+    padding-top: 20px;
+}
+@media screen and (min-width: 1100px){
+    div{
+        background-size:contain;
+        background-color: lightgreen;
+    }
 }
