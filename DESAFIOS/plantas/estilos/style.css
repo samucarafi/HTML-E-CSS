@@ -1,0 +1,75 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body, html{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgreen;
+}
+header{
+    height: 100px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 2.0em;
+    color: green;
+}
+menu{
+    padding: 10px;
+    background-color: green;
+}
+menu a{
+    color: white;
+    padding: 10px;
+}
+menu a:hover{
+background-color: darkgreen;
+transition: 0.7s;
+}
+h1{
+    padding-top: 20px;
+}
+h2{
+    text-align: center;
+}
+main{
+    
+}
+div{
+    width: 100vw;
+    margin: auto;
+    background-color: white;
+    height: 100%;
+    text-align: center;
+}
+div#folhagem{
+    background-image: url(../imagens/—Pngtree—small\ clear\ hand\ drawn\ minimalist_948703.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: top center;
+    height: 100%;
+    background-attachment: fixed;
+}
+h2{
+    padding-top:50px;
+    font-family: cursive;
+    color: black;
+    font-size: 3.0em;
+}
+ p{
+    padding: 30px;
+}
+div#flores{
+    background-image: url(../imagens/floral-frame-of-watercolor-pink-flowers-page-border-background-word-template_8d7eb6d6af__1131_1600.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: top center;
+    height: 100%;
+    background-attachment: fixed;
+}
+img.imagem{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
