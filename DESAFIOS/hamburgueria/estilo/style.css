@@ -45,7 +45,7 @@ main{
 }
 main img{
     margin-right:10px;
-    width:100px;
+    height: 100px;
 }
 main img:hover{
     scale: 1.1;
@@ -82,6 +82,6 @@ div.preço{
     }
     main{
         grid-template-columns: 50% 50%;
-        gap: 10px;
+        
     }
 }
