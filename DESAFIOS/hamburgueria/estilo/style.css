@@ -85,3 +85,13 @@ div.preço{
         
     }
 }
+@media screen and (min-width:1054px){
+    header{
+        width:1050px;
+        margin:auto;
+    }
+    div#menu{
+        width:1050px;
+        margin:auto;
+    }
+}
