@@ -20,11 +20,14 @@ header{
 img.imgHeader{
     border-radius: 50%;
     width:100px;
-    padding:10px;
     margin-top:20px;
-
+    margin-bottom:20px;
+    box-shadow: 2px 2px black;
 }
-p{
+img.imgHeader:hover{
+    scale: 1.2;
+}
+header p{
     padding: 20px;
 }
 p#horário{
@@ -33,4 +36,7 @@ p#horário{
     display:inline;
     padding:10px;
     border-radius: 20px;
+}
+main img{
+    width:100px;
 }
