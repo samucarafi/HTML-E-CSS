@@ -12,7 +12,7 @@ header{
     height:300px;
     background-image: url(../imagens/Fundo.jpg);
     background-size: cover;
-    background-position: center bottom;
+    background-position: top center;
     color:white;
     text-align:center;
 
@@ -25,7 +25,8 @@ img.imgHeader{
     box-shadow: 2px 2px black;
 }
 img.imgHeader:hover{
-    scale: 1.2;
+    scale: 1.1;
+    transition-duration: 0.5s;
 }
 header p{
     padding: 20px;
@@ -37,6 +38,50 @@ p#horário{
     padding:10px;
     border-radius: 20px;
 }
+main{
+    width:100%;
+    display: grid;
+    grid-template-columns: 100%;
+}
 main img{
+    margin-right:10px;
     width:100px;
+}
+main img:hover{
+    scale: 1.1;
+    transition-duration: 0.5s;
+}
+main > div{
+    display:flex;    
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+}
+button#carrinho{
+    color: white;
+    background-color:gray;
+    border: none;
+    padding:2px 7px;
+
+    border-radius: 10px;
+
+}
+div.preço{
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+@media screen and (min-width: 768px) {
+    h2{
+        font-size: 2em;
+    }
+    main{
+        grid-template-columns: 50% 50%;
+        gap: 10px;
+    }
 }

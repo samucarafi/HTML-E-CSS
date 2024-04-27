@@ -4,22 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamburgueria</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
-    <header>
+<header>
         <img class="imgHeader" src="imagens/hamburguer-1.jpeg" alt="Hambúrguer">
         <h1>Hamburgueria</h1>
         <p>Rua Doutor Filho, 23, Rio de Janeiro - RJ</p>
         <p id="horário">Seg a Dom - 17:00 às 23:00</p>
-    </header>
+</header>
+<h2>Conheça nosso cardápio</h2>
+<div id="menu">
     <main>
-    <h2>Conheça nosso cardápio</h2>
-    <div>
-        <div><img src="imagens/hamburguer-1.jpeg" alt="hamburguer-1"><h3>Hamburguer 1</h3><p>Pão brioche, 200g de carne, bacon, ovo e queijo.</p></div>
-        <div><img src="imagens/hamburguer-1.jpeg" alt="hamburguer-2"></div>
-        <div><img src="imagens/hamburguer-1.jpeg" alt="hamburguer-3"></div>
-    </div>
+        <div>
+            <img src="imagens/hamburguer-1.jpeg" alt="hamburguer-1">
+            <div>
+                <h3>Hamburguer 1</h3>
+                <p>Pão brioche, 200g de carne, bacon, ovo e queijo.</p>
+                <div class="preço">
+                    <p>R$29,99</p> 
+                    <button id="carrinho"data-name="hamburguer-1" data-price="29.99">
+                    <i class="material-symbols-outlined">
+                    shopping_cart
+                    </i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="imagens/hamburguer-1.jpeg" alt="hamburguer-1">
+            <div>
+                <h3>Hamburguer 2</h3>
+                <p>Pão brioche, 200g de carne, bacon, ovo e queijo.</p>
+                <div class="preço">
+                    <p>R$39,99</p> 
+                    <button id="carrinho" data-name="hamburguer-2" data-price="39.99">
+                    <i class="material-symbols-outlined">
+                    shopping_cart
+                    </i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img src="imagens/hamburguer-1.jpeg" alt="hamburguer-1">
+            <div>
+                <h3>Hamburguer 3</h3>
+                <p>Pão brioche, 200g de carne, bacon, ovo e queijo.</p>
+                <div class="preço">
+                    <p>R$19.99</p> 
+                    <button id="carrinho" data-name="hamburguer-3" data-price="19.99">
+                    <i class="material-symbols-outlined">
+                    shopping_cart
+                    </i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img src="imagens/hamburguer-1.jpeg" alt="hamburguer-1">
+            <div>
+                <h3>Hamburguer 4</h3>
+                <p>Pão brioche, 200g de carne, bacon, ovo e queijo.</p>
+                <div class="preço">
+                    <p>R$59.99</p> 
+                    <button id="carrinho" data-name="hamburguer-4" data-price="59.99">
+                    <i class="material-symbols-outlined">
+                    shopping_cart
+                    </i>
+                    </button>
+                </div>
+            </div>
+        </div>
     </main>
+    <div>
+        <h2>Bebidas</h2>
+    </div>
+    <main>
+        <div>
+            <img src="imagens/coca.jpeg" alt="coca">
+            <div>
+                <h3>Coca-Cola</h3>
+                <div class="preço">
+                    <p>R$8.00</p> 
+                    <button id="carrinho"data-name="Coca-cola" data-price="8">
+                    <i class="material-symbols-outlined">
+                    shopping_cart
+                    </i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img src="imagens/guarana.png" alt="Guaraná">
+            <div>
+                <h3>Guaraná</h3>
+                <div class="preço">
+                    <p>R$7.00</p> 
+                    <button id="carrinho"data-name="Guaraná" data-price="7">
+                    <i class="material-symbols-outlined">
+                    shopping_cart
+                    </i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
 </body>
 </html>
