@@ -106,6 +106,7 @@ footer, footer>button{
     bottom:0;
 }
 footer> button{
+    cursor: pointer;
     display:flex;
     align-items:center;
     justify-content:center;
