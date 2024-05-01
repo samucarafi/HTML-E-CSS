@@ -60,12 +60,12 @@ h2{
     text-align: center;
     padding: 20px;
 }
-button#carrinho{
+button.carrinho{
     color: white;
     background-color:gray;
     border: none;
     padding:2px 7px;
-
+    cursor: pointer;
     border-radius: 10px;
 
 }
@@ -112,13 +112,14 @@ footer{
     display:flex;
     align-items: center;
     justify-content: center;
-}
-footer, footer>button{
-    background-color: red;
-    color: white;
-    border: none;
     position:sticky;
     bottom:0;
+}
+footer, footer>button{
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    
 }
 footer> button{
     cursor: pointer;
