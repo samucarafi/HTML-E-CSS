@@ -4,6 +4,7 @@ const fechar = document.getElementById ("fechar")
 const horario = document.getElementById("horário")
 const menu = document.getElementById("menu")
 const buttonCarrinho =[ ...document.getElementsByClassName("carrinho")]
+const xCarrinho=[...document.getElementsByClassName("xcarrinho")]
 const prodCarrinho = document.getElementById("produtos")
 let cart =[]
 
@@ -51,3 +52,19 @@ function updateCartModal(){
     prodCarrinho.innerHTML=""
     let total = 0
 }
+let i=[]
+let r=[]
+buttonCarrinho.map((e,n)=>{
+    e.addEventListener('click',function(){
+        if(r.includes(n)){
+            i[n]++
+        }else{
+        
+        i[n]=1
+        r.push(n)
+        }
+
+    xCarrinho[n].innerHTML='x'+i[n]
+    })
+    
+})
