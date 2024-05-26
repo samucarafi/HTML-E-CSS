@@ -3,6 +3,7 @@ const janela = document.getElementById ("janela")
 const fechar = document.getElementById ("fechar")
 const horario = document.getElementById("horário")
 const menu = document.getElementById("menu")
+const buttonCarrinho =[ ...document.getElementsByClassName("carrinho")]
 const prodCarrinho = document.getElementById("produtos")
 let cart =[]
 
@@ -49,7 +50,4 @@ function addToCard(name, price){
 function updateCartModal(){
     prodCarrinho.innerHTML=""
     let total = 0
-
-    
-
 }
