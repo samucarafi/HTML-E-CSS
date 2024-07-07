@@ -5,6 +5,9 @@ const horario = document.getElementById("horário")
 const menu = document.getElementById("menu")
 const buttonCarrinho =[ ...document.getElementsByClassName("carrinho")]
 const xCarrinho=[...document.getElementsByClassName("xcarrinho")]
+let setas=[...document.getElementsByClassName("setas")]
+const setaUp=[...document.getElementsByClassName("up")]
+const setaDown=[...document.getElementsByClassName("down")]
 const prodCarrinho = document.getElementById("produtos")
 let cart =[]
 
@@ -59,7 +62,6 @@ buttonCarrinho.map((e,n)=>{
         if(r.includes(n)){
             i[n]++
         }else{
-        
         i[n]=1
         r.push(n)
         }

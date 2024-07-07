@@ -68,11 +68,17 @@ button.carrinho{
     cursor: pointer;
     border-radius: 10px;
 }
+div.setas{
+    display: flex;
+    flex-flow: column;
+}
 div.preço{
     margin-top: 10px;
     display:flex;
-    justify-content: space-between;
-
+    justify-content:flex-end;
+}
+div.preço>p{
+    padding-right: 10px;
 }
 div.janela{
     width: 100%;
