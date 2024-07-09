@@ -134,7 +134,7 @@ body{
         flex-direction: column;
         background: var(--white);
         gap: -10px;
-        transition: 0.3s;
+        transition: 0.5s;
     }
     .nav-menu.ativo{
         right: 0;
